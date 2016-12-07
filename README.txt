@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/courtg47/pen/RoQEPL.
+
+ This real-time weather app will display your current location (city), the type of weather in your location (overcast, rainy, sunny, etc.), the specific temperature in fahrenheit, and the current windspeed. You may toggle between fahrenheit and celsius by clicking the temperature button.  The background image also changes depending on the weather in your area.  The weather information is accessed through the Open Weather API.  This app was created by Courtney Green.
