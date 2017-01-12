@@ -7,7 +7,7 @@ $(document).ready(function() {
     longitude = data2.lon; //storing longitude info 
     
     //Open Weather API with geolocation
-    var api = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "139&appid=a7bb6cdb70750c94d2b8a8307707c2c7";
+    var api = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=a7bb6cdb70750c94d2b8a8307707c2c7";
   
     $.getJSON(api, function(data) {
       var weatherType = data.weather[0].description;
