@@ -1,10 +1,12 @@
 $(document).ready(function() {  
   var latitude;  //variable for lattitude
   var longitude;   //variable for longitude
+
+  var location = "https://ipapi.co/json";
   
-  $.getJSON("http://ip-api.com/json", function(data2){
-    latitude = data2.lat; //storing lattitude info 
-    longitude = data2.lon; //storing longitude info 
+  $.getJSON(location, function(data2){
+    latitude = data2.latitude; //storing lattitude info 
+    longitude = data2.longitude; //storing longitude info 
     
     //Open Weather API with geolocation
     var api = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=a7bb6cdb70750c94d2b8a8307707c2c7";
